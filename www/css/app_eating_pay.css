@@ -1,0 +1,72 @@
+body{
+	background-color: #BBF1FF;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #1BC143;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+.navbar div.active{
+	background-color: #07A62D;
+}
+
+
+.navbar div a, .navbar { 
+	font-size: 300%;
+	margin-top: -10px;
+	text-align: center;
+	padding: 15px;
+    color: white !important;
+}
+
+nav .col-xs-4{
+	margin-top: 20px;
+}
+
+.nav > div > a:hover{
+	text-decoration: none;
+}	
+
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+.Name .row{
+	padding: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+​
+.Name{
+	position: relative;
+	margin-top: 0px;
+}
+
+.img-rounded{
+	border: 23px solid #A7CA40;
+	border-radius: 100%;
+}
+
+.Profile .row{
+	padding: 8px;
+	background-color: white;
+	margin: auto;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	color: #593BFF;
+	font-size: 130%;
+}
+
+.Profile .row p{
+	margin-top: 10px;
+}
+
+.right {
+    float: right;
+}
+

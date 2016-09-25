@@ -1,0 +1,88 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #1BC143;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+.navbar div.active{
+	background-color: #07A62D;
+}
+
+
+.navbar div a, .navbar { 
+	font-size: 300%;
+	margin-top: -10px;
+	text-align: center;
+	padding: 15px;
+    color: white !important;
+}
+
+nav .col-xs-4{
+	margin-top: 20px;
+}
+
+.nav > div > a:hover{
+	text-decoration: none;
+}	
+
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.Restaurant{
+	position: relative;
+	margin-top: 20px;
+	color: #2E6A19;
+}
+
+.menu{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.outer-image{
+	position: relative;
+	width: 100%;
+}
+
+.inner-image{
+	width: 29%;
+	position: absolute;
+	top: 13.5%;
+	left: 6.5%;		
+}
+
+.inner-text{
+	position: absolute;
+	top: 22%;
+	left: 43%;
+	font-size: 5.6vw;
+}
+
+.inner{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	font-size: 3.6vw;
+}
+
+.in{
+	position: absolute;
+	top:73%;
+	left: 40%;
+	color: white;
+	font-size: 4vw;
+
+}
+
+#googleMap {
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); /* Change the color of the map to black and white */
+}

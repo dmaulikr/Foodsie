@@ -1,0 +1,53 @@
+body{
+	background-image: url("../img/background-login.png");
+	background-repeat: no-repeat;
+	background-size: 150% auto;
+}
+.center{
+	text-align: center;
+}
+
+.logo h1{
+	margin-top: 40px;
+	color: #3F1B0D;
+	font-family: serif;
+	text-align: left;
+}
+
+input[type=email] {
+    background-color: #CAF0BD;
+	font-size: 120%;
+}
+
+input[type=password] {
+    background-color: #CAF0BD;
+	font-size: 120%;
+}
+
+#username{
+	padding: 30px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+#password{
+	padding: 30px;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+
+#submit{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border: #682915;
+	color: #A2C44A;
+	font-family: serif;
+	background-color: #682915;
+	text-align: center;
+	vertical-align: middle;
+	float: right;
+	width: 150px;
+	height: 50px;
+	font-size: 170%;
+}
